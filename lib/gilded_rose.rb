@@ -33,17 +33,38 @@ class GildedRose
     end
   end
   def aged_brie(item)
-     if item.sell_in > 0
-       item.quality +=  1
-     else
-       item.quality += 2
-     end
+    if item.sell_in > 0
+      item.quality +=  1
+    else
+      item.quality += 2
+    end
 
-     item.sell_in -= 1
-     if item.quality > 50
-       item.quality = 50
-     end
-   end
+    item.sell_in -= 1
+    if item.quality > 50
+      item.quality = 50
+    end
+  end
+  #this seems to pass(2)test even though its empty
+  def sulfuras(item)
+  end
+
+  def backstage_passes(item)
+
+    item.quality = if item.sell_in > 10
+      item.quality + 1
+    elsif item.sell_in > 5
+      item.quality + 2
+    elsif item.sell_in > 0
+      item.quality + 3
+    else
+      0
+    end
+
+  end
+
+  
+
+
 end
   #
   # def update_quality
