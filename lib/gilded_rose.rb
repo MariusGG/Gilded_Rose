@@ -1,6 +1,9 @@
 # frozen_string_literal: true
+require_relative 'aged_brie'
 
 class GildedRose
+
+  include Aged_brie
   def initialize(items)
     @items = items
   end
@@ -8,7 +11,7 @@ class GildedRose
   def update_quality
     @items.each do |item|
       if item.name == 'Aged Brie'
-        aged_brie(item)
+        Aged_brie.update(item)
       elsif item.name == 'Backstage passes to a TAFKAL80ETC concert'
         backstage_passes(item)
       elsif item.name == 'Sulfuras, Hand of Ragnaros'
@@ -24,12 +27,6 @@ class GildedRose
   def normal_item(item)
     item.quality -= 1 if item.quality > 0
     item.quality -= 1 if item.sell_in <= 0 && item.quality > 0
-    item.sell_in -= 1
-  end
-
-  def aged_brie(item)
-    item.quality += 1 if item.quality < 50
-    item.quality += 1 if item.quality < 50 && item.sell_in <= 0
     item.sell_in -= 1
   end
 
