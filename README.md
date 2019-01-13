@@ -37,7 +37,7 @@ I suggest you do some research about a few specific topics and see if any of the
 ### Code Exemplar
 
 <table>
-     <tr><th>![Alt text](./Gilded_rose.png)</th><th>l![Alt text](./Refactored_Gilded_rose.png)</th>
+     <tr><th>![Alt text](./Gilded_rose.png)</th><th>![Alt text](./Refactored_Gilded_rose.png)</th>
 
    </table>
 
