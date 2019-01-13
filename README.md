@@ -16,6 +16,22 @@ Clone/Download this repo to your local machine.
 - Run Rubocop (linter)
 
 
+### Feedback
+
+This is a feedback section from the Makers Academy coaches for further implementations and OOP principles:
+
+ Feedback 1:
+ ```
+@Marius this looks like a very nice start
+However, I think that this could be refactored even further to make it super clean and elegant.
+I suggest you do some research about a few specific topics and see if any of them give you inspiration…
+
+• Inheritance
+• Polymorphism
+• Duck-typing
+• Liskov Substitution Principle
+ ```
+
 ### Exemplar
 
 **Sandi Metz, author of "Practical Object-Oriented Design in Ruby"**
