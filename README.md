@@ -36,6 +36,7 @@ I suggest you do some research about a few specific topics and see if any of the
  I used modules as I felt they were like a tool box with different tools I can call and no instantiation needed.
 ### Code Exemplar
 ![gilded rose code](./public/gilded_rose.png)
+![gilded rose code](./public/refactored_gilded_rose.png)
 ### Exemplar
 
 **Sandi Metz, author of "Practical Object-Oriented Design in Ruby"**
