@@ -35,12 +35,7 @@ I suggest you do some research about a few specific topics and see if any of the
  This webpage helped me better understand the specific topic suggested and how I can best organise my code. I began refactoring the code by implementing more ternary operators. Also by extracting the items into modules I was able to include them back into the main gilded rose file and call the update method from the module.
  I used modules as I felt they were like a tool box with different tools I can call and no instantiation needed.
 ### Code Exemplar
-
-<table>
-     <tr><th>![Alt text](./Gilded_rose.png)</th><th>![Alt text](./Refactored_Gilded_rose.png)</th>
-
-   </table>
-
+![gilded rose code](./public/gilded_rose.png)
 ### Exemplar
 
 **Sandi Metz, author of "Practical Object-Oriented Design in Ruby"**
