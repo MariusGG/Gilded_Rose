@@ -1,4 +1,6 @@
-module Normal_item
+require 'item'
+
+class Normal_item < Item
 
   def self.update(item)
     item.quality -= 1 if item.quality > 0

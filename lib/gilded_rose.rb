@@ -6,8 +6,6 @@ require_relative 'normal_item'
 
 class GildedRose
 
-  include Aged_brie, Backstage_pass, Sulfuras, Normal_item
-
   def initialize(items)
     @items = items
   end

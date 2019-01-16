@@ -1,4 +1,5 @@
-module Backstage_pass
+require 'item'
+class Backstage_pass < Item
   def self.update(item)
     item.quality += 1
     item.quality += 1 if item.sell_in < 11
