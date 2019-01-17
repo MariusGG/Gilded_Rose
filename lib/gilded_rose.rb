@@ -1,8 +1,9 @@
 # frozen_string_literal: true
-require_relative 'aged_brie'
-require_relative 'backstage_pass'
-require_relative 'sulfuras'
-require_relative 'normal_item'
+require 'aged_brie'
+require 'backstage_pass'
+require 'legendary'
+require 'normal_item'
+require 'conjured'
 
 class GildedRose
 
@@ -12,17 +13,7 @@ class GildedRose
 
   def update_quality
     @items.each do |item|
-      if item.name == 'Aged Brie'
-        Aged_brie.update(item)
-      elsif item.name == 'Backstage passes to a TAFKAL80ETC concert'
-        Backstage_pass.update(item)
-      elsif item.name == 'Sulfuras, Hand of Ragnaros'
-        Sulfuras.update(item)
-      elsif item.name == 'Conjured'
-        conjured(item)
-      else
-        Normal_item.update(item)
-      end
+     item.update_item
     end
   end
 
