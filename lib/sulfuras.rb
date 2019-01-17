@@ -2,7 +2,7 @@ require 'item'
 
 class Sulfuras < Item
 
-  def self.update(item)
+  def self.update_quality(item)
 
   end
 

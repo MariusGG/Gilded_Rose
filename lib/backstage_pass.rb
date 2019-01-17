@@ -1,6 +1,6 @@
 require 'item'
-class Backstage_pass < Item
-  def self.update(item)
+class BackstagePass < Item
+  def self.update_quality(item)
     item.quality += 1
     item.quality += 1 if item.sell_in < 11
     item.quality += 1 if item.sell_in < 6
