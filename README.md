@@ -37,11 +37,18 @@ I suggest you do some research about a few specific topics and see if any of the
 
  
 ### Code Exemplar
+<<<<<<< HEAD
 ![gilded_rose](./public/gilded_rose.png)
 ![refactored gilded_rose](./public/refactored_gilded_rose.png)
 
    </table>
 
+=======
+
+![gilded_rose](./public/gilded_rose.png)
+![refactored gilded_rose](./public/refactored_gilded_rose.png)
+
+>>>>>>> 1999fa9169947d61f10e7b21b8efebb78a922881
 ### Exemplar
 
 **Sandi Metz, author of "Practical Object-Oriented Design in Ruby"**
